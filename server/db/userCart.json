@@ -1,0 +1,30 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "product 2",
+            "price": 3000,
+            "discription": "discription 2",
+            "imgPath": "products_img/catalog-card2.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "product 3",
+            "price": 45600,
+            "discription": "discription 3",
+            "imgPath": "products_img/catalog-card3.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "product 1",
+            "price": 1600,
+            "discription": "discription 1",
+            "imgPath": "products_img/catalog-card1.png"
+        }
+    ]
+}

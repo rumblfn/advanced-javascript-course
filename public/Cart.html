@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://kit.fontawesome.com/cf70ddfc7e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper" id="app">
+        <div class="top">
+            <header class="container">
+                <nav class="top-header">
+                    <ul class="header-list">
+                        <li class="header-left">
+                            <a href="index.html"><img src="img/logo-header.png" alt="logo"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/loop-header.svg" alt="logo"></a>
+                        </li>
+                    </ul>
+                    <ul class="header-list">
+                        <li class="menu">
+                            <details-comp></details-comp>
+                        </li>
+                        <li class="header-right">
+                            <a href="registration.html"><img src="img/class-header.svg" alt="class"></a>
+                        </li>
+                        <li class="header-right">
+                            <cart ref="cart"></cart>
+                        </li>
+                        <!-- <li class="header-right"><a href="Cart.html"><img src="img/bascket.png" alt="bascket"></a></li> -->
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="content">
+            <header class="container header-content">
+                <h1 class="catalog-header-left">SHOPPING CART</h1>
+            </header>
+        </div>
+        <section class="cart_buy container">
+            <cart-main></cart-main>
+            <div class="total">
+                <div class="form-content">
+                    <form action="#" class="adress">
+                        <h3 class="form_name">SHIPPING ADRESS</h3>
+                        <input class="form-item1" type="text" id="city" name="city" placeholder="Bangladesh"><br>
+                        <input class="form-item" type="text" id="state" name="state" placeholder="State"><br>
+                        <input class="form-item" type="text" id="code" name="code" placeholder="Postcode / Zip"><br>
+                        <input class="button-submit" type="submit" value="GET A QUOTE">
+                    </form>
+                    <div class="total-price">
+                        <h4>SUB TOTAL <span class="total-span-1">$900</span></h4>
+                        <h3>GRAND TOTAL <span class="total-span-2">$900</span></h3>
+                        <hr>
+                        <a class="checkout" href="#">PROCEED TO CHECKOUT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="bg-middle-foot">
+            <div class="middle-footer container">
+                <figure class="more middle-footer-left">
+                    <img src="img/ava.png" alt="ava">
+                    <figcaption class="middle-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</figcaption>
+                </figure>
+                <form action="#" class="more middle-footer-right">
+                    <h3 class="middle-h3">SUBSCRIBE</h3>
+                    <p class="middle-text-right">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="submit">
+                        <input class="input-for-button-footer" type="email" placeholder="Enter Your Email">
+                        <button class="button-middle-footer">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="end-footer">
+            <div class="end-groop container">
+                <p class="end-text-footer">&copy; 2021 Brand All Rights Reserved.</p>
+                <div class="img-groop">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-facebook-f net-img"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-instagram net-img"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.pinterest.ru/" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-pinterest-p net-img"></i>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/?lang=ru" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-twitter net-img"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="src/detailsComp.js"></script>
+    <script src="src/filterComp.js"></script>
+    <script src="src/cartComponent.js"></script>
+    <script src="src/productComponent.js"></script>
+    <script src="src/cartProducts.js"></script>
+    <script src="src/main.js"></script>
+</body>
+
+</html>
