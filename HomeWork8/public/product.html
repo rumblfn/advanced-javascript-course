@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <script src="https://kit.fontawesome.com/cf70ddfc7e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper" id="app">
+        <div class="top">
+            <header class="container">
+                <nav class="top-header">
+                    <ul class="header-list">
+                        <li class="header-left">
+                            <a href="index.html"><img src="img/logo-header.png" alt="logo"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/loop-header.svg" alt="logo"></a>
+                        </li>
+                    </ul>
+                    <ul class="header-list">
+                        <li class="menu">
+                            <details-comp></details-comp>
+                        </li>
+                        <li class="header-right">
+                            <a href="registration.html"><img src="img/class-header.svg" alt="class"></a>
+                        </li>
+                        <li class="header-right">
+                            <cart ref="cart"></cart>
+                        </li>
+                        <!-- <li class="header-right"><a href="Cart.html"><img src="img/bascket.png" alt="bascket"></a></li> -->
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="content">
+            <header class="container header-content">
+                <h1 class="catalog-header-left">NEW ARRIVALS </h1>
+                <h2 class="catalog-header-right"><a href="index.html">HOME</a> / <a href="catalog.html">MEN</a> / <a href="catalog.html"><span class="header-list-bold">NEW ARRIVALS</span></a> </h2>
+            </header>
+        </div>
+        <div class="main-product">
+            <a class="box-scroll angle-left" href="#"><i class="angle fas fa-chevron-left"></i></a>
+            <img class="img-page-of-products" src="img/main-product.png" alt="prod">
+            <a class="box-scroll angle-right" href="#"><i class="angle fas fa-chevron-right"></i></a>
+        </div>
+        <div class="product-discription container">
+            <div class="name-price">
+                <h2 class="name-collection">WOMEN COLLECTION</h2>
+                <div class="line"></div>
+                <h3 class="nam">MOSCHINO CHEAP AND CHIC</h3>
+                <p class="nam-disc">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.
+                </p>
+                <p class="price-prod">$561</p>
+            </div>
+            <div class="line2-prod"></div>
+            <div class="settings">
+                <div class="main-filters">
+                    <details class="main-filt">
+                        <summary class="product-page-select-item">CHOOSE COLOR</summary>
+                        <div class="select-checkbox">
+                            <div>
+                                <input type="checkbox" id="now" name="now">
+                                <label for="now">red</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="fashion" name="fashion">
+                                <label for="fashion">blue</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="opt" name="opt">
+                                <label for="opt">black</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="legend" name="legend">
+                                <label for="legend">white</label>
+                            </div>
+                        </div>
+                    </details>
+                    <details class="main-filt">
+                        <summary class="product-page-select-item">CHOOSE SIZE</summary>
+                        <div class="select-checkbox">
+                            <div>
+                                <input type="checkbox" id="XS" name="XS">
+                                <label for="XS">XS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="S" name="S">
+                                <label for="S">S</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="M" name="M">
+                                <label for="M">M</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="L" name="L">
+                                <label for="L">L</label>
+                            </div>
+                        </div>
+                    </details>
+                    <details class="main-filt">
+                        <summary class="product-page-select-item">QUANTITY</summary>
+                        <div class="select-checkbox">
+                            <div>
+                                <input class="custom-checkbox" type="checkbox" id="low" name="low">
+                                <label for="low">1</label>
+                            </div>
+                            <div>
+                                <input class="custom-checkbox" type="checkbox" id="middle" name="middle">
+                                <label for="middle">2</label>
+                            </div>
+                            <div>
+                                <input class="custom-checkbox" type="checkbox" id="high" name="high">
+                                <label for="high">3</label>
+                            </div>
+                            <div>
+                                <input class="custom-checkbox" type="checkbox" id="ultra" name="ultra">
+                                <label for="ultra">4</label>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+                <a class="put-to-bascket" href="#">
+                    <img class="bascket-img" src="img/bascket-red.svg" alt="bascket">
+                    <p class="bascket-text">Add to Cart</p>
+                </a>
+            </div>
+        </div>
+        <section class="products container margin-bottom" style="margin-top: 0">
+            <div class="prod toCart">
+                <a href="product.html">
+                    <img class="prod-pic" src="img/card4.png" alt="prod1">
+                    <div class="prod-disc">
+                        <h4 class="prod-h4">4ELLERY X M'O CAPSULE</h4>
+                        <p class="prod-discription">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add-box">
+                    <div class="add">
+                        <img src="img/add-pic.svg" alt="cart">
+                        <p>Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prod toCart">
+                <a href="product.html">
+                    <img class="prod-pic" src="img/card5.png" alt="prod1">
+                    <div class="prod-disc">
+                        <h4 class="prod-h4">5ELLERY X M'O CAPSULE</h4>
+                        <p class="prod-discription">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add-box">
+                    <div class="add">
+                        <img src="img/add-pic.svg" alt="cart">
+                        <p>Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prod prod-none toCart">
+                <a href="product.html">
+                    <img class="prod-pic" src="img/card6.png" alt="prod1">
+                    <div class="prod-disc">
+                        <h4 class="prod-h4">6ELLERY X M'O CAPSULE</h4>
+                        <p class="prod-discription">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add-box">
+                    <div class="add">
+                        <img src="img/add-pic.svg" alt="cart">
+                        <p>Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="bg-middle-foot">
+            <div class="middle-footer container">
+                <figure class="more middle-footer-left">
+                    <img src="img/ava.png" alt="ava">
+                    <figcaption class="middle-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</figcaption>
+                </figure>
+                <form action="#" class="more middle-footer-right">
+                    <h3 class="middle-h3">SUBSCRIBE</h3>
+                    <p class="middle-text-right">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="submit">
+                        <input class="input-for-button-footer" type="email" placeholder="Enter Your Email">
+                        <button class="button-middle-footer">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="end-footer">
+            <div class="end-groop container">
+                <p class="end-text-footer">&copy; 2021 Brand All Rights Reserved.</p>
+                <div class="img-groop">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-facebook-f net-img"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-instagram net-img"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.pinterest.ru/" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-pinterest-p net-img"></i>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/?lang=ru" target="_blank">
+                        <div class="social-networks-groop">
+                            <i class="fab fa-twitter net-img"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="src/detailsComp.js"></script>
+    <script src="src/filterComp.js"></script>
+    <script src="src/cartComponent.js"></script>
+    <script src="src/productComponent.js"></script>
+    <script src="src/main.js"></script>
+</body>
+
+</html>

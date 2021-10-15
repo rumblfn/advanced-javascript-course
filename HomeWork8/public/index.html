@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <script src="https://kit.fontawesome.com/cf70ddfc7e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper" id="app">
+        <div class="top">
+            <header class="container">
+                <nav class="top-header">
+                    <ul class="header-list">
+                        <li class="header-left">
+                            <a href="index.html"><img src="img/logo-header.png" alt="logo"></a>
+                        </li>
+                        <li>
+                            <filter-el></filter-el>
+                        </li>
+                    </ul>
+                    <ul class="header-list">
+                        <li class="menu">
+                            <details-comp></details-comp>
+                        </li>
+                        <li class="header-right">
+                            <a href="registration.html"><img src="img/class-header.svg" alt="class"></a>
+                        </li>
+                        <li class="header-right">
+                            <cart ref="cart"></cart>
+                        </li>
+                        <!-- <li class="header-right"><a href="Cart.html"><img src="img/bascket.png" alt="bascket"></a></li> -->
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="background-main">
+            <main class="content_index">
+                <img class="main-img" src="img/index-man-2.png" alt="man">
+                <div class="main-text">
+                    <div class="top-text">
+                        <p class="heading-text">THE BRAND</p>
+                        <p class="text-mini">OF LUXERIOUS <span class="cont-span">FASHION</span></p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="container card-box">
+            <div class="card-groop1">
+                <a href="catalog.html" class="card-width">
+                    <figure class="card">
+                        <img class="image-card" src="img/for-woman.png" alt="woman">
+                        <figcaption class="card-text">
+                            <p class="card-p">30% OFF</p>
+                            <p class="red-text">FOR WOMEN</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="catalog.html" class="card-width">
+                    <figure class="card">
+                        <img class="image-card" src="img/for-man.png" alt="man">
+                        <figcaption class="card-text">
+                            <p class="card-p">HOT DEAL</p>
+                            <p class="red-text">FOR MEN</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="catalog.html" class="card-width">
+                    <figure class="card">
+                        <img class="image-card" src="img/for-kids.png" alt="kids">
+                        <figcaption class="card-text">
+                            <p class="card-p">NEW ARRIVALS</p>
+                            <p class="red-text">FOR KIDS</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <a href="catalog.html">
+                <figure class="card-groop2">
+                    <img class="image-card" src="img/accesories.png" alt="accesorie">
+                    <figcaption class="card-text-last">
+                        <p class="card-p">LUXIROUS & TRENDY</p>
+                        <p class="red-text">ACCESORIES</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+        <section class="content-2 container index-content">
+            <div class="products-heading">
+                <h2 class="prod-h2">Fetured Items</h2>
+                <p class="prod-text">Shop for items based on what we featured in this week</p>
+            </div>
+            <products ref="products" page="index"></products>
+            <div class="all-products">
+                <a href="catalog.html" class="all-prod">Browse All Product</a>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="extra container">
+                    <figure class="ett">
+                        <img class="foot-img" src="img/lorin.svg" alt="lorin">
+                        <h3 class="footer-top-heading">Free Delivery</h3>
+                        <p class="footer-top-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </figure>
+                    <figure class="ett">
+                        <img class="foot-img" src="img/sales.svg" alt="sales">
+                        <h3 class="footer-top-heading">Sales & discounts</h3>
+                        <p class="footer-top-text ett-center">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </figure>
+                    <figure class="ett">
+                        <img class="foot-img" src="img/crown.svg" alt="crown">
+                        <h3 class="footer-top-heading">Quality assurance</h3>
+                        <p class="footer-top-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </figure>>
+                </div>
+            </div>
+            <div class="bg-middle-foot">
+                <div class="middle-footer container">
+                    <figure class="more middle-footer-left">
+                        <img src="img/ava.png" alt="ava">
+                        <figcaption class="middle-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</figcaption>
+                    </figure>
+                    <form action="#" class="more middle-footer-right">
+                        <h3 class="middle-h3">SUBSCRIBE</h3>
+                        <p class="middle-text-right">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <div class="submit">
+                            <input class="input-for-button-footer" type="email" placeholder="Enter Your Email">
+                            <button class="button-middle-footer">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="end-footer">
+                <div class="end-groop container">
+                    <p class="end-text-footer">&copy; 2021 Brand All Rights Reserved.</p>
+                    <div class="img-groop">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <div class="social-networks-groop">
+                                <i class="fab fa-facebook-f net-img"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <div class="social-networks-groop">
+                                <i class="fab fa-instagram net-img"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.pinterest.ru/" target="_blank">
+                            <div class="social-networks-groop">
+                                <i class="fab fa-pinterest-p net-img"></i>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank">
+                            <div class="social-networks-groop">
+                                <i class="fab fa-twitter net-img"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="src/detailsComp.js"></script>
+    <script src="src/filterComp.js"></script>
+    <script src="src/cartComponent.js"></script>
+    <script src="src/productComponent.js"></script>
+    <script src="src/main.js"></script>
+</body>
+
+</html>
